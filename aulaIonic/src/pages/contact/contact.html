@@ -1,0 +1,21 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+   <form>
+      <ion-item>
+        <ion-label>E-mail</ion-label>
+        <ion-input #name type="email" name="title"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>Senha</ion-label>
+        <ion-input #password type="password" name="description"></ion-input>
+      </ion-item>
+      <button (click)="login(name.value, password.value)" ion-button type="submit" block>Subbmit</button>
+    </form>
+</ion-content>

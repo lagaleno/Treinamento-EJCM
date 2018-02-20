@@ -1,0 +1,47 @@
+
+body {
+	background-image: url("img/background/literature.jpg");
+	background-attachment: fixed;
+	height: 100%;
+}
+
+span {
+	font-family: 'Dosis', sans-serif;
+	font-size: 30px;
+}
+
+.nav_bar {
+	font-family: 'Dosis', sans-serif;
+
+}
+
+.row {
+	margin-top: 75vh;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+p {
+	text-align: justify;
+}
+
+footer {
+	padding-top: 0px !important;
+	margin-top: 85vh;
+}
+
+footer .container {
+	color: black !important;
+
+}
+
+#mapa_icon {
+	width: 35px;
+	height: auto;
+}
+
+#redeSocial_icon {
+	width: 35px;
+	height: auto;
+
+}

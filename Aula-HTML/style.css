@@ -1,0 +1,48 @@
+
+body{
+
+	background-color: #BDBDBD;
+    font-family: 'Supermercado One', cursive;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+h1 {
+	color:  #660000;
+	font-family: 'Supermercado One', cursive !important;
+	text-align: center;
+	font-size: 55px;
+
+}
+
+img {
+
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    width: 20%;
+}
+
+#id_tabela {
+
+	border: 2px dashed  #660000;
+	font-size: 15px;
+	margin: auto;
+    width: 25%;
+    padding: 10px;
+}
+
+#main {
+	position: absolute;
+	width: 70vw; /* Defino o tamnho da div main dessa forma, tendo em vista o tamanho do pai, o body*/
+	height: 70vh;
+
+	left: 50vw; /* Centralizo no meio da página */
+	top: 50vh;
+
+	margin-left: -35vw; /* Como o meio da página não é o meio do objeto é preciso ter essas linhas para que a centralização ocorresse*/
+	margin-top: -35vh;
+}

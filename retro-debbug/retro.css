@@ -1,0 +1,35 @@
+
+/* navbar ..............*/
+nav {
+  height: 100px;
+}
+nav ul a {
+  font-size: 1.4em;
+  font-family: 'Dosis', sans-serif;
+}
+/* texto ..............*/
+span {
+  font-size: 2em;
+  font-family: Dosis;
+}
+h2, h3, h5 {
+  font-family: Dosis;
+}
+/* botões ..... */
+.btn {
+  background-color: #9e9e9e;
+}
+.btn:hover {
+  background-color: #bdbdbd;
+}
+/* footer ............*/
+footer {
+  margin-top: 200px;
+  margin-bottom: 0;
+}
+.page-footer img {
+  height: 2em;
+}
+#texto-footer {
+  margin-bottom: 2em;
+}
